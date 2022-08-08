@@ -12,9 +12,12 @@
     <div class="container">
         <div class="form">
             <label for="">Digite o nome dos Animes</label> <br>
-            <input type="text" class="input" placeholder="Digite o nome do anime">
+            <input type="text" class="input" placeholder="Digite o nome do anime" data-nome>
         </div>
-        <button class="btn_add">Adicionar</button>
+        <button class="btn_add" onclick="addAnime()">Adicionar</button>
+        <div class="itens">
+            <span class="item"></span>
+        </div>
     </div>
     <div class="lista_conteudo">
         <table class="tabela">

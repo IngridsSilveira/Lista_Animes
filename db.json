@@ -3,17 +3,17 @@
         {
             "nome": "Fumetsu no Anata E",
             "sinopse": "Lorem lorem lorem",
-            "imagem": "#"
+            "id": 1
         },
         {
             "nome": "Berserk",
             "sinopse": "Lorem lorem lorem",
-            "imagem": "#"
+            "id": 2
         },
         {
             "nome": "Spy x Family",
             "sinopse": "Lorem lorem lorem",
-            "imagem": "#"
+            "id": 3
         }
     ]
 }
