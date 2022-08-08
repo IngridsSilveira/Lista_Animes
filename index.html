@@ -9,9 +9,25 @@
 </head>
 <body>
     <h1>Lista de Animes</h1>
-    <ul class="lista">
-        
-    </ul>
+    <div class="container">
+        <div class="form">
+            <label for="">Digite o nome dos Animes</label> <br>
+            <input type="text" class="input" placeholder="Digite o nome do anime">
+        </div>
+        <button class="btn_add">Adicionar</button>
+    </div>
+    <div class="lista_conteudo">
+        <table class="tabela">
+            <thead>
+                <th>Nome</th>
+                <th>Editar</th>
+                <th>Deletar</th>
+            </thead>
+            <tbody class="tabela_corpo" data-corpo>
+
+            </tbody>
+        </table>
+    </div>
     <script src="main.js"></script>
 </body>
 </html>

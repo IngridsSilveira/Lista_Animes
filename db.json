@@ -1,9 +1,19 @@
 {
-    "Animes": [
-        "Fumetsu no Anata E",
-        "Black clover",
-        "Spy x Family",
-        "Kimetsu no Yaiba",
-        "Berserk"
+    "animes": [
+        {
+            "nome": "Fumetsu no Anata E",
+            "sinopse": "Lorem lorem lorem",
+            "imagem": "#"
+        },
+        {
+            "nome": "Berserk",
+            "sinopse": "Lorem lorem lorem",
+            "imagem": "#"
+        },
+        {
+            "nome": "Spy x Family",
+            "sinopse": "Lorem lorem lorem",
+            "imagem": "#"
+        }
     ]
 }
