@@ -1,19 +1,20 @@
 {
-    "animes": [
-        {
-            "nome": "Fumetsu no Anata E",
-            "sinopse": "Lorem lorem lorem",
-            "id": 1
-        },
-        {
-            "nome": "Berserk",
-            "sinopse": "Lorem lorem lorem",
-            "id": 2
-        },
-        {
-            "nome": "Spy x Family",
-            "sinopse": "Lorem lorem lorem",
-            "id": 3
-        }
-    ]
+  "animes": [
+    {
+      "nome": "Fumetsu",
+      "id": 3
+    },
+    {
+      "nome": "Boku no hero",
+      "id": 4
+    },
+    {
+      "nome": "Nanatsu",
+      "id": 5
+    },
+    {
+      "nome": "Vagabond",
+      "id": 8
+    }
+  ]
 }
