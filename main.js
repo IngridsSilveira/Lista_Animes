@@ -1,5 +1,7 @@
 const corpo = document.querySelector("[data-corpo]");
 
+var urlJson = "https://my-json-server.typicode.com/ingridsSilveira/Lista_Animes/animes";
+
 var url = 'http://localhost:3000/animes';
 
 let inputItens = document.querySelector("[data-nome]");
@@ -30,7 +32,7 @@ form.addEventListener("submit", (e) =>{
 })
 
 //GET//PEGANDO OS DADOS DOS ANIMES//
-    fetch(url).then(resposta => resposta.json())
+    fetch(urlJson).then(resposta => resposta.json())
     .then(dados => pegandoDados(dados))
         
 const pegandoDados = (dados) => {
