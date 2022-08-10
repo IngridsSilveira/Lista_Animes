@@ -5,30 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Lista de animes Crud</title>
+    <title>Lista de animes</title>
 </head>
 <body>
     <h1>Lista de Animes</h1>
-    <div class="container">
-        <form class="form">
-            <label for="">Digite o nome dos Animes</label> <br>
-            <input type="text" class="input" placeholder="Digite o nome do anime" data-nome>
-            <button type="submit" class="btn btn_add">Adicionar</button>
-        </form>
-        <button class="btn_editar">Editar</button>
+    <div class="card">
+        <div class="container">
+            <form class="form">
+                <input type="text" class="input" placeholder="Nome do Anime" data-nome>
+                <button type="submit" class="btn btn_add">Add</button>
+            </form>
+            <button class="btn_editar">Edit</button>
+        </div>
+        <div class="lista_conteudo">
+            <table class="tabela">
+                <div class="tabelaTitulos">
+                    <p>Nome</p>
+                    <p>Editar</p>
+                    <p>Deletar</p>
+                </div>
+                <tbody class="tabela_corpo" data-corpo>
+                </tbody>
+            </table>
+        </div>
     </div>
-    <div class="lista_conteudo">
-        <table class="tabela">
-            <thead>
-                <th>Nome</th>
-                <th>Editar</th>
-                <th>Deletar</th>
-            </thead>
-            <tbody class="tabela_corpo" data-corpo>
-
-            </tbody>
-        </table>
-    </div>
+    <footer class="rodape">
+        <p class="rodape-texto">Desenvolvido por <a href="https://ingridssilveira.github.io/IngridSouza/">Ingrid de Souza</a> 🔥</p>
+      </footer>
     <script src="main.js"></script>
 </body>
 </html>

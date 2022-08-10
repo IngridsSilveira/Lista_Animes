@@ -37,7 +37,7 @@ const pegandoDados = (dados) => {
     dados.forEach(element => {
         data += `
             <tr data-id=${element.id}>
-            <td data-titulo>${element.nome}</td>
+            <td class="td_titulo" data-titulo>${element.nome}</td>
             <td>
             <button class='btn_editar' id="editar">Editar</button>
             </td>

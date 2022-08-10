@@ -1,7 +1,7 @@
 {
   "animes": [
     {
-      "nome": "Fumetsu",
+      "nome": "Fumetsu no Anata",
       "id": 3
     },
     {
@@ -9,12 +9,20 @@
       "id": 4
     },
     {
-      "nome": "Nanatsu",
-      "id": 5
-    },
-    {
       "nome": "Vagabond",
       "id": 8
+    },
+    {
+      "nome": "Spy x Family",
+      "id": 9
+    },
+    {
+      "nome": "Kimetsu no Yaiba",
+      "id": 11
+    },
+    {
+      "nome": "Mob Psycho",
+      "id": 12
     }
   ]
 }
